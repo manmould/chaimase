@@ -1,0 +1,18 @@
+<!-- <input type="text" [(ngModule)]="userName" />
+<p>Two way binding! Hello {{userName}}</p> -->
+
+<p [style.color]="myColor">Text color is style using style binding</p>
+
+<p [class]="myCSSClass">This paragraph class come from * myCSSClass* property</p>
+<p [class.blue]="applyCssClass">This paragraph class does not apply</p>
+
+<input type="text" [value]="customName">
+
+<input type="text" [value]="userName">
+
+<h2>Event Binding</h2>
+<button (click)="showData($event)">Click here</button>
+
+<p>test works!</p>
+<h1>{{ appName }}</h1>
+
